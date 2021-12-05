@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --primary-coloer:#F87171;
+    /* --off-white: #9CA3AF; */
+    /* --dark-gray:#6B7280; */
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 2px;
+
+}
+
+
+
+
+textarea{
+    width: 55%;
+    height: 20vh;
+    display: block;
+    margin: 0rem;
+    padding: 1rem;
+    font-size: x-large;
+    margin: auto;
+    border: solid;
+    margin-top: 3rem;
+}
+
+
+#output{
+    /* margin: 0; */
+    border: 1px solid black;
+    height: 20vh;
+    width: 55%;
+    padding: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    border: solid;
+    font-size: xx-large;
+    margin-top: 5rem;
+
+
+    
+} 
+#btn-translate{
+    font-size: xx-large;
+    font-weight: bold;
+    height: 50px;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 3rem;
+    background-color:var(--primary-coloer);
+    color: black;
+
+}
+.txt{
+    margin-left: 14%;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+/* spece ke liye use hota hai */
+hr{
+    margin: 3rem 1rem;
+
+}
+
+/* spaces */
+.margin.md{
+    margin: 2rem
+}
+
+/* navigation */
+
+.navigation{
+    background-color: var(--primary-coloer);
+    color: black;
+    padding: 4rem;
+    border-bottom-left-radius: 4rem  ;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    /* margin-bottom: rem; */
+
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+.navigation .nav-pills{
+    text-align: right;
+    
+}
+/* .navigation-container{
+    /* margin-bottom: 5rem; */
+    /* background-color: var(--primary-coloer); */ */
+
+/* } */
+
+
+.hero{
+    padding: 2rem;
+    padding-top: 2rem;
+}
+.hero .hero-img{
+    max-width: 400px;
+    display: block;
+    margin: auto; 
+}
+
+.hero .hero-heading{
+    text-align: center;
+    font-size: xx-large;
+    color: var(--dark-gray);
+    padding: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-coloer);
+}
+
+
+
+/* section background color */
+.ow{
+    background-color: var(--off-white);
+}
+
+
+
+
+
+.container-center{
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    height: 5rem;
+    
+}
+
+/* footers */
+.footer{
+    background-color: var(--primary-coloer);
+    padding: 2rem 3rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 3rem;
+    margin-top: 7%;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.dd{
+    font-family: cursive;
+    font-size: 2rem;
+}
